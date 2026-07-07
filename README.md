@@ -1,1 +1,7 @@
-# deep-learning-architectures
+# Part E: Reflection
+
+# The architectures I chose were the ones I felt were most appropraite to handle the tasks, the reasons why being that MNIST data contains rather simple images and an MLP can easily learn the patterns between them without needed feature extraction functions. Along with that, CNN's have the capability of learning edges, textures, and shapes almost immediately, making them useful for a dataset such a CIFAR-10 with image classification means, and LSTM is able to process sequential text and relationships over time, which makes the IMDB dataset a good fit given its analytical content.
+
+# Of the problems/challenges I ran into, the most prominent were the time it took to train the models and the fine-tuning after that fact as well. Because LSTM's and CNN's had more to them than MLP's, it took longer to train them in comparison and was due in part because these models run slower on a CPU compared to a GPU. Additionally, the parameters of the models needed tuning after experiencing overfitting, causing me to reassess the values for the learning rates, the batch size, and the architecture needed for good performance.
+
+# When it comes to real world uses, I think CNN would work well with self-driving cars for traffic detection, medical image analysis for detecting tumors, and with biometric authentication given how it's designed to handle more complex datasets. Similarly, LSTM's ability to capture relationships between words can be used in machine translation, speech recognition, stock price forecasting, and weather prediction and MLP's pattern learning function would be helpful with credit risk protection, handwritten digit recognition, and medical diagnoses using structured data.
